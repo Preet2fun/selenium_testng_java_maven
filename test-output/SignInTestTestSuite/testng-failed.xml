@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SignInTestTestSuite]">
+  <test thread-count="5" name="SignInTest(failed)">
+    <parameter name="password" value="admin"/>
+    <parameter name="username" value="admin"/>
+    <classes>
+      <class name="com.nms.radwinAutomation.login.SignInTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="positiveTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.nms.radwinAutomation.login.SignInTest -->
+    </classes>
+  </test> <!-- SignInTest(failed) -->
+</suite> <!-- Failed suite [SignInTestTestSuite] -->

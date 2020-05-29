@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SignInTestTestSuite" verbose="1">
+
+	<test name="SignInTest">
+
+		<!-- <parameter name="username" value="admin"></parameter>
+		<parameter name="password" value="admin"></parameter> -->
+		<classes>
+			<class
+				name="com.nms.radwinAutomation.login.SignInTest" />
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,13 @@
+com\nms\radwinAutomation\login\IframeTest.class
+com\nms\radwinAutomation\login\NegativeLogInTests.class
+com\nms\radwinAutomation\login\NegativeLogInTestsDataProviderCsv.class
+com\nms\radwinAutomation\login\PositiveLogInTests.class
+com\nms\radwinAutomation\login\CheckBoxesTests.class
+com\nms\radwinAutomation\login\AdminTest.class
+com\nms\radwinAutomation\login\AlertTest.class
+com\nms\radwinAutomation\login\SignInTest.class
+com\nms\radwinAutomation\login\HoversTest.class
+com\nms\radwinAutomation\login\DragAndDropTest.class
+com\nms\radwinAutomation\login\DropDownTests.class
+com\nms\radwinAutomation\login\FileUploadTest.class
+com\nms\radwinAutomation\login\WindowTest.class

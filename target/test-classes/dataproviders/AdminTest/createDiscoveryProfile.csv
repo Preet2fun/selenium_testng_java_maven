@@ -1,0 +1,2 @@
+no,name,ip_host,RPE,DeviceType,CredentialProfile,Tags,expectedMessage
+1,Test Discovery Automation,1.1.1.1,172.16.8.88,UPS,Test Automation,Ping,Discovery Profile created successfully

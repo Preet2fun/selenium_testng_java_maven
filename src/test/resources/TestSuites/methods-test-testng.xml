@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Functional Testing" parallel="methods"
+	thread-count="2">
+	<parameter name="username" value="tomsmith"></parameter>
+	<parameter name="password" value="incorrectPassword"></parameter>
+	<parameter name="expectedMessage"
+		value="Your password is invalid!"></parameter>
+	<parameter name="browser" value="chrome"></parameter>
+	<test name="GUI test" group-by-instances="true">
+		<classes>
+			<class name="com.herokuapp.theinternet.login.AlertTest" />
+			<class
+				name="com.herokuapp.theinternet.login.NegativeLogInTests" />
+			<class
+				name="com.herokuapp.theinternet.login.PositiveLogInTests" />
+		</classes>
+	</test>
+</suite>

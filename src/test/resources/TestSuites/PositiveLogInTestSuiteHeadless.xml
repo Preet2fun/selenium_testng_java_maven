@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PositiveLogInTestSuite" verbose="1">
+
+	<test name="PositiveLogInTest">
+		<parameter name="browser" value="chromeheadless"></parameter>
+		<parameter name="username" value="tomsmith"></parameter>
+		<parameter name="password" value="SuperSecretPassword!"></parameter>
+		<classes>
+			<class
+				name="com.herokuapp.theinternet.login.PositiveLogInTests" />
+		</classes>
+	</test>
+
+</suite>
