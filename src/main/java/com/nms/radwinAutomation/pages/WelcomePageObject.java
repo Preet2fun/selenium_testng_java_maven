@@ -17,7 +17,7 @@ public class WelcomePageObject extends BasePageObject {
 	private By fileupload = By.xpath("//a[contains(text(),'File Upload')]");
 	private By dragdrop = By.xpath("//a[contains(text(),'Drag and Drop')]");
 	private By hovers = By.xpath("//a[contains(text(),'Hovers')]");
-	private By adminlink = By.xpath("//i[contains(@class,'fa fa-fw fa-lg fa-gear')]");
+	private By adminlink = By.xpath("//a[@id='admin']");
 
 	public WelcomePageObject(WebDriver driver, Logger log) {
 		// TODO Auto-generated constructor stub

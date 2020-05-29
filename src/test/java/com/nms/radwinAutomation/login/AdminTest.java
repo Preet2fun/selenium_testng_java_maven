@@ -52,7 +52,7 @@ public class AdminTest extends TestUtilities {
 
 	}
 	
-	@Test(priority = 2,dataProvider = "csvReader", dataProviderClass = CsvDataProviders.class)
+	/*@Test(priority = 2,dataProvider = "csvReader", dataProviderClass = CsvDataProviders.class)
 	public void createDiscoveryProfile(Map<String, String> testData) throws InterruptedException {
 
 		// Reading data from csv file
@@ -91,6 +91,6 @@ public class AdminTest extends TestUtilities {
 						+ adminPage.verifycreateDiscoveryProfile());
 
 	}
-	
+	*/
 
 }
